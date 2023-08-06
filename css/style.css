@@ -1,6 +1,5 @@
 :root {
-  --pink: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
-
+  --pink: #dc2675;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -83,7 +82,7 @@ body {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 65%;
+    font-size: 40%;
   }
   .simply-countdown > .simply-section {
     padding: 45px;
