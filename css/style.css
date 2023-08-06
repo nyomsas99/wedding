@@ -82,10 +82,10 @@ body {
 /* mobile phone */
 @media (max-width: 576px) {
   html {
-    font-size: 40%;
+    font-size: 60%;
   }
   .simply-countdown > .simply-section {
-    padding: 45px;
+    padding: 44px;
     margin: 3px;
   }
 }
