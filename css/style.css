@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/roses-3072698_1280.jpg);
+  background-image: url(../img/istockphoto-669412596-612x612.jpg);
   background-repeat: no-repeat;
   z-index: -1;
   filter: brightness();
@@ -33,6 +33,7 @@ body {
 .hero h4,
 .hero p {
   text-shadow: var(--shadow);
+  color: darkcyan;
 }
 .hero h1 {
   font-family: "Sacramento", "cursive";
