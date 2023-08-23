@@ -15,6 +15,9 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,7 +42,7 @@
     >
       <main>
         <h4>Kepada Bapak/Ibu/Saudara/i</h4>
-        <h1>Nyoman & Someone</h1>
+        <h1 class="name"></h1>
         <p>Akan melangsungkan pernikahan resepsi pernikahan dalam:</p>
         <div class="simply-countdown"></div>
         <a href="#home" class="btn btn-lg mt-4 mb-5" onClick="enableScroll()"
@@ -109,12 +112,14 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col text-center">
-            <h2>Acara Pernikahan</h2>
-            <h3>
+            <h2 data-aos="fade-down" data-aos-duration="500">
+              Acara Pernikahan
+            </h2>
+            <h3 data-aos="fade-down" data-aos-duration="300">
               Diselenggarakan pada 20 November 2023 di Seputih Mataram, Lampung
               Tengah
             </h3>
-            <p>
+            <p data-aos="fade-down" data-aos-duration="300">
               Oleh karena itu, dengan segala hormat kami bermaksud untuk
               mengundang Bapak/Ibu/,Saudara/i, untuk hadir pada acara pernikahan
               kami.
@@ -124,7 +129,11 @@
         <div class="row couple">
           <div class="col-lg-6">
             <div class="row">
-              <div class="col-8 text-end">
+              <div
+                class="col-8 text-end"
+                data-aos="fade-right"
+                data-aos-duration="350"
+              >
                 <h3>Nyoman Sastrawan,S.T</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
@@ -141,6 +150,8 @@
                   src="img/men.png"
                   class="img-responsive rounded-circle"
                   alt="nyomsas"
+                  data-aos="fade-down"
+                  data-aos-duration="300"
                 />
               </div>
             </div>
@@ -153,9 +164,11 @@
                   src="img/women.png"
                   class="img-responsive rounded-circle"
                   alt="nyomsas"
+                  data-aos="fade-down"
+                  data-aos-duration="300"
                 />
               </div>
-              <div class="col-8">
+              <div class="col-8" data-aos="fade-right" data-aos-duration="500">
                 <h3>Someone</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
@@ -178,7 +191,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <h2>Informasi Acara</h2>
+            <h2 data-aos="fade-down" data-aos-duration="300">
+              Informasi Acara
+            </h2>
             <p class="alamat">Alamat: Sri Rejeki, Lampung Tengah</p>
             <a
               href="https://goo.gl/maps/gXi4ZUwjF4wV5v5A7"
@@ -194,7 +209,11 @@
           </div>
         </div>
         <div class="row justify-content-center mt-4">
-          <div class="col-md-5 col-10">
+          <div
+            class="col-md-5 col-10"
+            data-aos="fade-down"
+            data-aos-duration="350"
+          >
             <div class="card text-center text-bg-light mb-5">
               <div class="card-header">Akad Nikah</div>
               <div class="card-body">
@@ -215,7 +234,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-5 col-10">
+          <div
+            class="col-md-5 col-10"
+            data-aos="fade-down"
+            data-aos-duration="300"
+          >
             <div class="card text-center text-bg-light">
               <div class="card-header">Resepsi</div>
               <div class="card-body">
@@ -246,7 +269,7 @@
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
             <span>Bagaimana Cinta Kami Bersemi</span>
-            <h2>Cerita Kami</h2>
+            <h2 data-aos="fade-right" data-aos-duration="300">Cerita Kami</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
               nemo accusantium voluptas accusamus a assumenda.
@@ -261,7 +284,11 @@
                   class="timeline-img"
                   style="background-image: url(img/smaya.jpg)"
                 ></div>
-                <div class="timeline-panel">
+                <div
+                  class="timeline-panel"
+                  data-aos="fade-right"
+                  data-aos-duration="300"
+                >
                   <div class="timeline-heading">
                     <h3>Pertama Bertemu</h3>
                     <span>1 januari 2022</span>
@@ -274,7 +301,11 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li
+                class="timeline-inverted"
+                data-aos="fade-right"
+                data-aos-duration="300"
+              >
                 <div
                   class="timeline-img"
                   style="background-image: url(https://picsum.photos/200/300)"
@@ -293,7 +324,7 @@
                   </div>
                 </div>
               </li>
-              <li class="">
+              <li class="" data-aos="fade-right" data-aos-duration="300">
                 <div
                   class="timeline-img"
                   style="background-image: url(https://picsum.photos/201/301)"
@@ -312,7 +343,11 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li
+                class="timeline-inverted"
+                data-aos="fade-right"
+                data-aos-duration="300"
+              >
                 <div
                   class="timeline-img"
                   style="background-image: url(https://picsum.photos/202/302)"
@@ -353,7 +388,7 @@
         <div
           class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
         >
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="200">
             <a
               href="https://picsum.photos/id/100/1200/768"
               data-toggle="lightbox"
@@ -367,7 +402,7 @@
               />
             </a>
           </div>
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="250">
             <a
               href="https://picsum.photos/id/201/1200/768"
               data-toggle="lightbox"
@@ -381,7 +416,7 @@
               />
             </a>
           </div>
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="300">
             <a
               href="https://picsum.photos/id/310/1200/768"
               data-toggle="lightbox"
@@ -395,7 +430,7 @@
               />
             </a>
           </div>
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="350">
             <a
               href="https://picsum.photos/id/400/1200/768"
               data-toggle="lightbox"
@@ -409,7 +444,7 @@
               />
             </a>
           </div>
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="400">
             <a
               href="https://picsum.photos/id/401/1200/768"
               data-toggle="lightbox"
@@ -423,7 +458,7 @@
               />
             </a>
           </div>
-          <div class="col mt-3">
+          <div class="col mt-3" data-aos="fade-down" data-aos-duration="450">
             <a
               href="https://picsum.photos/id/402/1200/768"
               data-toggle="lightbox"
@@ -446,7 +481,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
-            <h2>Konfirmasi Kehadiran</h2>
+            <h2 data-aos="fade-right" data-aos-duration="500">
+              Konfirmasi Kehadiran
+            </h2>
             <p>Isi form dibawah ini untuk konfirmasi kehadiran.</p>
           </div>
         </div>
@@ -512,7 +549,7 @@
         <div class="row justify-content-center">
           <div class="col-md-8 col-10 text-center">
             <span>ungkapan tanda kasih</span>
-            <h2>Kirim Hadiah</h2>
+            <h2 data-aos="fade-right" data-aos-duration="500">Kirim Hadiah</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ab
               provident, sit pariatur fuga inventore!
@@ -521,16 +558,28 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-md-6">
-            <ul class="list-group-item">
+            <ul
+              class="list-group-item"
+              data-aos="fade-right"
+              data-aos-duration="550"
+            >
               <li class="list-group-item">
                 <div class="fw-bold">BCA</div>
                 123456789 - NYOMAN SASTRAWAN
               </li>
-              <li class="list-group-item">
+              <li
+                class="list-group-item"
+                data-aos="fade-right"
+                data-aos-duration="600"
+              >
                 <div class="fw-bold">BRI</div>
                 987654321 - NYOMAN SASTRAWAN
               </li>
-              <li class="list-group-item">
+              <li
+                class="list-group-item"
+                data-aos="fade-right"
+                data-aos-duration="650"
+              >
                 <div class="fw-bold">Saweria</div>
                 <img
                   src="img/qr code.png"
@@ -583,7 +632,11 @@
       </div>
     </footer>
     <!-- end -->
-
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -592,5 +645,18 @@
     <!-- lighbox -->
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".name", {
+        duration: 2,
+        delay: 1,
+        text: "Nyoman & Someone",
+      });
+    </script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
   </body>
 </html>

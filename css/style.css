@@ -401,8 +401,8 @@ footer li {
     margin: 3px;
   }
   .timeline li .timeline-img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 50px;
   }
   .timeline li .timeline-panel {
     width: 60%;
