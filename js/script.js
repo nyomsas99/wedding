@@ -102,3 +102,4 @@ const pronoun = urlParams.get("p") || "Bapak/Ibu/Saudara/i";
 namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
 
 document.querySelector("#nama").value = nama;
+// sss
