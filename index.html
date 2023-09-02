@@ -41,7 +41,7 @@
       class="hero h-100 w-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
     >
       <main>
-        <h4>Kepada Bapak/Ibu/Saudara/i</h4>
+        <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
         <h1 class="name"></h1>
         <p>Akan melangsungkan pernikahan resepsi pernikahan dalam:</p>
         <div class="simply-countdown"></div>
@@ -195,6 +195,15 @@
               Informasi Acara
             </h2>
             <p class="alamat">Alamat: Sri Rejeki, Lampung Tengah</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254512.71788297725!2d105.549495!3d-4.636636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3f6c2e0c1c1c3d%3A0x4039d80b220e440!2sKec.%20Bandar%20Mataram%2C%20Kabupaten%20Lampung%20Tengah%2C%20Lampung!5e0!3m2!1sid!2sid!4v1693635700101!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
             <a
               href="https://goo.gl/maps/gXi4ZUwjF4wV5v5A7"
               target="_blank"
@@ -540,6 +549,27 @@
             <button class="btn btn-primary">Kirim</button>
           </div>
         </form>
+        <div class="row justify-content-center">
+          <div class="col-md-6 mt-4">
+            <div id="disqus_thread"></div>
+            <script>
+              (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://my-wedding-2.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+          </div>
+        </div>
       </div>
     </section>
     <!-- end -->
@@ -632,6 +662,14 @@
       </div>
     </footer>
     <!-- end -->
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="music/Soegi Bornean   Asmalibrasi.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
     <!-- aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- gsap -->
