@@ -1,7 +1,7 @@
 // countdown
 simplyCountdown(".simply-countdown", {
   year: 2023, // required
-  month: 9, // required
+  month: 12, // required
   day: 2, // required
   hours: 8, // Default is 0 [0-23] integer
 
@@ -79,18 +79,42 @@ disableScroll();
 // }
 
 // form
+// window.addEventListener("load", function () {
+//   const form = document.getElementById("my-form");
+//   form.addEventListener("submit", function (e) {
+//     e.preventDefault();
+//     const data = new FormData(form);
+//     const action = e.target.action;
+//     fetch(action, {
+//       method: "POST",
+//       body: data,
+//     }).then(() => {
+//       alert("Success!");
+//     });
+//   });
+// });
 window.addEventListener("load", function () {
   const form = document.getElementById("my-form");
-  form.addEventListener("submit", function (e) {
+  form.addEventListener("submit", async function (e) {
     e.preventDefault();
     const data = new FormData(form);
     const action = e.target.action;
-    fetch(action, {
-      method: "POST",
-      body: data,
-    }).then(() => {
+
+    try {
+      const response = await fetch(action, {
+        method: "POST",
+        body: data,
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
       alert("Success!");
-    });
+    } catch (error) {
+      console.error("Error:", error);
+      alert("There was an error with the submission. Please try again later.");
+    }
   });
 });
 
